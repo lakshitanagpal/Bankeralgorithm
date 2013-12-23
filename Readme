@@ -1,4 +1,69 @@
 The is a testing code for Banker's algorithm 
 
+Enter the number of resources: 4 
+
+Enter the number of processes: 5
+
+Enter the resource for instance ~claim vector 1: 8
+
+Enter the resource for instance ~claim vector 2: 5
+
+Enter the resource for instance ~claim vector 3: 9
+
+Enter the resource for instance ~claim vector 4: 7
+
+Enter maximum resource table:
+3 2 1 4
+0 2 5 2
+5 1 0 5
+1 5 3 0
+3 0 3 3
+
+Enter allocated resource table:
+2 0 1 1
+0 1 2 1
+4 0 0 3
+0 2 1 0
+1 0 3 0
+
+The resource of instances: 	8	5	9	7
+The allocated resource table:
+	2	0	1	1
+	0	1	2	1
+	4	0	0	3
+	0	2	1	0
+	1	0	3	0
+
+The maximum resource table:
+	3	2	1	4
+	0	2	5	2
+	5	1	0	5
+	1	5	3	0
+	3	0	3	3
+
+Allocated resources:	7	3	7	5
+Available resources:	1	2	2	2
+
+Process3 is executing
+
+The process is in safe state
+Safe sequence is:	5	2	2	5
+
+Process1 is executing
+
+The process is in safe state
+Safe sequence is:	7	2	3	6
+
+Process2 is executing
+
+The process is in safe state
+Safe sequence is:	7	3	5	7
+
+Process4 is executing
+
+The process is in safe state
+Safe sequence is:	7	5	6	7
+
+
 jyestha
 TAMUK
